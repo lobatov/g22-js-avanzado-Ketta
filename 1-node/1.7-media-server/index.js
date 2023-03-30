@@ -1,17 +1,20 @@
 const http = require('http');
 const colors = require('colors');
 
+
 const server = http.createServer((request, response) => {
     const status = 200; // OK
     const mimeType = { 'Content-Type' : 'text/html' };
     response.writeHead(status, mimeType);
-    response.write('<html> <body> Hola shavos de js avanzado en devf! </body> </html>');
+    response.write('<html> <body> Hola shavos de js avanzado en devf!.... pu_$%,no entiendo naaa!!!!...yeiiiiii!!!...ya solucioné un error, ajua!!</body> </html>');
     response.end();
 });
 
-server.listen(8000);
-console.log('el servidor fue iniciado...');
-console.log('OMG Rainbows!'.rainbow); 
+server.listen(8080);
+console.log('el servidor fue iniciado...carajo');
+console.log('carajo...no entiendo naaa');
+console.log('OMG RAINBOWS!'.rainbow);
+
 /*
  // PETICIONES
 // localhost:8080/index.html
